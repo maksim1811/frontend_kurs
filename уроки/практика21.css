@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Impact;
+}
+.n{
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	background-color: rgb(63, 84, 34);
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+.nl{
+	font-size: 48px;
+}
+.nl2{
+	font-size: 18px;
+	flex-grow: 1;
+	display: flex;
+	justify-content: space-around;
+}
+.nl2 a{
+	color: #fff;
+	text-decoration: none;
+}
+.nl2 a:hover{
+	text-decoration: underline;
+}
+.nb button{
+	padding: 8px 14px;
+	border: none;
+	background-color: lightgreen;
+	font-size: 18px;
+}
+.nb button:hover{
+	background-color: #fff;
+	color: black;
+}

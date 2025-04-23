@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+.d1{
+	display: grid;
+	gap: 15px;
+	grid-template-columns: repeat(4, 1fr);
+	width: 60%;
+	height: 700px;
+	margin-left: 20%;
+	padding: 15px;
+}
+.d{
+	width: auto;
+	height: auto;
+	background-color:  #4C514A;
+}
+.d2{
+	grid-row: span 2;
+	grid-column: span 2;
+}
+.d3{
+	grid-column: span 2;
+}
+.d8{
+	grid-column: span 2;
+}
+.d9{
+	grid-column: span 2;
+}

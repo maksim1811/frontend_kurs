@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+body{
+	min-height: 2000px;
+}
+.m{
+	width: 25%;
+	height: 600px;
+	background-color: chocolate;
+	color: white;
+	float: left;
+	padding: 20px;
+	position: fixed;
+}
+.m ul a{
+	color: #fff;
+}
+.c{
+	float: right;
+	width: 70%;
+	height: auto;
+	background-color: aquamarine;
+}
+.ct{
+	padding: 20px;
+	margin: 20px 0;
+	font-size: 18px;
+	height: 400px;
+}
+.ct p{
+	position: sticky;
+	top: 10px;
+}

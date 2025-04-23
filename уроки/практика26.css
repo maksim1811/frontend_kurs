@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+.gc{
+	width: 100%;
+	height: auto;
+	display: grid;
+}
+.d1{
+	display: flex;
+}
+.d2{
+	display: flex;
+}
+.d3{
+	display: flex;
+}
+.gi1{
+	width: 49%;
+	height: 30px;
+	background-color: orange;
+	margin: 5px;
+}
+.gi2{
+	width: 49%;
+	height: 30px;
+	background-color: orange;
+	margin: 5px;
+}
+.gi3{
+	background-color: yellow;
+	margin: 5px;
+	height: 200px;
+}
+.gi4{
+	background-color: blue;
+	width: 33%;
+	height: 100px;
+	margin: 5px;
+}
+.gi5{
+	background-color: blue;
+	width: 33%;
+	height: 100px;
+	margin: 5px;
+}
+.gi6{
+	background-color: blue;
+	width: 33%;
+	height: 100px;
+	margin: 5px;
+}
+.gi7{
+	background-color: lightgrey;
+	width: 24%;
+	margin: 5px;
+	height: 100px;
+}
+.gi8{
+	background-color: lightgrey;
+	width: 24%;
+	margin: 5px;
+	height: 100px;
+}
+.gi9{
+	background-color: lightgrey;
+	width: 24%;
+	margin: 5px;
+	height: 100px;
+}
+.gi10{
+	background-color: lightgrey;
+	width: 24%;
+	margin: 5px;
+	height: 100px;
+}
+@media screen and (orientation: portrait){
+	.gc{
+		display: grid;
+	}
+	.d3{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 5px;
+	}
+	.gi7{
+	background-color: lightgrey;
+	width: 24%;
+	margin: 5px;
+	height: 100px;
+}
+.gi8{
+	background-color: lightgrey;
+	width: 24%;
+	margin: 5px;
+	height: 100px;
+}
+.gi9{
+	background-color: lightgrey;
+	width: 24%;
+	margin: 5px;
+	height: 100px;
+}
+.gi10{
+	background-color: lightgrey;
+	width: 24%;
+	margin: 5px;
+	height: 100px;
+}

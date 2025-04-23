@@ -1,0 +1,41 @@
+body{
+	background-image: url(background2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bock1{
+	width: 400px;
+	height: 400px;
+	background-color: brown;
+	color: white;
+}
+.bock2{
+	width: 400px;
+	height: 400px;
+	background-image: url(background.jpg);
+	color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bock3{
+	width: 400px;
+	height: 400px;
+	font-size: 20px;
+	background: linear-gradient(to bottom, white, blue, red);
+}
+.bock4{
+	width: 200px;
+	height: 200px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+}
+.bock5{
+	width: 200px;
+	height: 200px;
+	border: 2px solid white;
+	background-color: brown;
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-size: 80%;
+}

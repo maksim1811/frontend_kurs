@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+.b1{
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
+	background-color: green;
+}
+.b2{
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
+	background-color: red;
+}
+@media screen and (orientation: landscape){
+	.b1{
+		width: 200px;
+		height: 200px;
+	}
+	.b2{
+		width: 200px;
+		height: 200px;
+	}
+}
+@media screen and (orientation: portrait){
+	.b1{
+		background-color: blue;
+	}
+	.b2{
+		background-color: yellow;
+	}
+	.b1, .b2{
+		width: 80%;
+		height: 400px;
+		margin: 50px auto;
+	}
+}

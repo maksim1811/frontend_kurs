@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+.g{
+	width: 80%;
+	height: auto;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 50px auto;
+	display: grid;
+	grid-template-columns: repeat;
+	gap: 20px;
+}
+.g-i{
+	height: 130px;
+	background-color: darkgreen;
+	color: #fff;
+	font-weight: 700;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+}
+.i1:hover{
+	transform: translateX(100px);
+}
+.i2:hover{
+	transform: translateY(100px);
+}
+.i3:hover{
+	transform: translate(100px, 50px);
+}
+.i4:hover{
+	transform: scaleX(1.5);
+}
+.i5:hover{
+	transform: scaleY(1.5);
+}
+.i6:hover{
+	transform: scale(1.5, 1.5);
+}
+.i7:hover{
+	transform: rotate(180deg);
+}
+.i8:hover{
+	transform: skewX(10deg);
+}
+.i9:hover{
+	transform: skewY(10deg);
+}
+.i10:hover{
+	transform: skew(10deg, 10deg);
+}
+.c{
+	width: 500px;
+	height: 500px;
+	border: 1px solid black;
+	background-color: lightgreen;
+	margin: 50px auto;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: circle-rotate 8s infinite;
+}
+.c p{
+	font-size: 36px;
+	font-weight: 700;
+}
+.c p::before{
+	content: '"';
+	color: red;
+	font-size: 40px;
+	margin-right: 15px;
+}
+.c p::after{
+	content: '"';
+	color: green;
+	font-size: 40px;
+	margin-left: 15px;
+	position: relative;
+	top: 35px;
+}
+@keyframes circle-rotate{
+	0%{
+		transform: rotate(0deg);
+		border-radius: 100px;
+	}
+	50%{
+		transform: rotate(180deg);
+		border-radius: 50%;
+	}
+	100%{
+		transform: rotate(360deg);
+		border-radius: 100p;
+	}
+}

@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main{
+	width: 80%;
+	height: auto;
+	padding: 30px;
+	background-color: lightgreen;
+	margin: 50px auto;
+	border-radius: 24px;
+}
+.cart{
+	width: 350px;
+	height: auto;
+	padding: 15px;
+	background-color: #fff;
+	margin: auto;
+	border-radius: 24px;
+}
+.c_i{
+	width: 100%;
+}
+.c_i img{
+	width: 100%;
+}
+.c_c{
+	border: 1px solid black;
+	font-family: Trebuchet MS;
+}
+.c_c h2{
+	margin-bottom: 15px;
+	font-size: 24px;
+}
+.c_c p{
+	margin-bottom: 15px;
+}
+.c_c .c_p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.c_c button{
+	border: none;
+	padding: 16px;
+	width: 100%;
+	background-color: lightgreen;
+	font-size: 18px;
+	font-family: Trebuchet MS;
+	margin-top: 10px;
+	border-radius: 24px;
+}
+.c_c button:hover{
+	background-color: #fff;
+	color: green;
+}

@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.d1{
+	background-color: #d3d3d3;
+	width: 350px;
+	height: 200px;
+	border-radius: 12px;
+}
+.d2{
+	padding-top: 55px;
+	padding-left: 20px;
+}
+.d3{
+	font-family: Arial;
+	margin-left: 130px;
+	margin-top: -70px;
+}
+
+img{
+	width: 100px;
+	height: 60px;
+}
+p{
+	color: gray;
+	margin-top: 10px;
+}
+p:hover{
+	text-decoration: underline;
+}
+
